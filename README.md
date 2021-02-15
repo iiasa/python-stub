@@ -4,6 +4,8 @@ Copyright (c) 2021 IIASA
 
 ![GitHub](https://img.shields.io/github/license/iiasa/python-stub)
 
+## Overview
+
 Template repository for creating python packages and Sphinx-based documentation pages in line with the IIASA design guidelines
 
 ## Configuration
@@ -18,7 +20,8 @@ Then, make the following changes:
 0. Change the text of the `LICENSE` file and the badge in this readme (optional).
 1. Rename the folder `python_stub` to the intended package name.
 2. Update the package name, author info and url in `setup.cfg`.
-3. Update the package name, author info and copyright in `doc/source/conf.py`
+3. Update the package name, author info and copyright in `doc/source/conf.py`.
+4. Delete the configuration section from this readme and update the title and overview section.
 
 Make sure to commit all changes to your new repository - then program away!
 
