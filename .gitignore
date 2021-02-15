@@ -131,3 +131,6 @@ dmypy.json
 # JetBrains IDEs
 *.iml
 .idea/
+
+# Apple file system
+.DS_Store
