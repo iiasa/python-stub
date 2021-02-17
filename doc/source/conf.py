@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "python-stub"
+project = 'python-stub'
 copyright = "2021 IIASA"
 author = "Daniel Huppmann"
 
