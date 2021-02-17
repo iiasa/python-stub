@@ -32,7 +32,8 @@ Make sure to commit all changes to your new repository - then program away!
 This package uses the [Black](https://black.readthedocs.io/) code style.
 A GitHub Action workflow is configured to check that your commits conform to the style.
 
-We recommend that you follow the [numpydoc](https://numpydoc.readthedocs.io) docstring formatting.
+We recommend that you follow the [numpydoc](https://numpydoc.readthedocs.io)
+docstring formatting guide.
 
 Looking for more ideas to include fancy modules in your package?  
 Take a look at the [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) repository!
