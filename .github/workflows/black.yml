@@ -1,0 +1,14 @@
+# This workflow installs the package and builds the docs
+# See https://black.readthedocs.io/en/stable/github_actions.html for details
+
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: psf/black@stable
