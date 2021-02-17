@@ -17,11 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-# Please change this information!
-
-project = 'iiasa-python-project'
-copyright = '2021 IIASA'
-author = 'Daniel Huppmann'
+project = "python-stub"
+copyright = "2021 IIASA"
+author = "Daniel Huppmann"
 
 
 # -- General configuration ---------------------------------------------------
@@ -29,11 +27,10 @@ author = 'Daniel Huppmann'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -46,17 +43,18 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/iiasa_logo_white.png'
+html_logo = "_static/iiasa_logo_white.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
+
 
 # Add the IIASA stylesheet
 def setup(app):
-    app.add_css_file('iiasa.css')
+    app.add_css_file("iiasa.css")
