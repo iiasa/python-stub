@@ -29,13 +29,12 @@ Make sure to commit all changes to your new repository - then program away!
 
 Install the package including the requirements for building the docs.
 
-    pip install -e .[doc]
+    pip install --editable .[doc]
 
 ## Building the docs
 
 Navigate to the doc folder and run Sphinx.
 
-    cd doc
-    make html
+    make --directory=doc html
 
 The rendered html pages will be located in `doc/build/html/index.html`.
