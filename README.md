@@ -2,7 +2,8 @@
 
 Copyright (c) 2021 IIASA
 
-![GitHub](https://img.shields.io/github/license/iiasa/python-stub)
+![License](https://img.shields.io/github/license/iiasa/python-stub)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Overview
 
@@ -17,13 +18,24 @@ Detailed instructions to create a new repository from a template can be found
 
 Then, make the following changes:
 
-0. Change the text of the `LICENSE` file and the badge in this readme (optional).
-1. Rename the folder `python_stub` to the intended package name.
-2. Update the package name, author info and url in `setup.cfg`.
-3. Update the package name, author info and copyright in `doc/source/conf.py`.
-4. Delete the configuration section from this readme and update the title and overview section.
+0. Change the text of the `LICENSE` file (optional).
+0. Update the url in the license badge in this readme to point to the new repository.
+0. Rename the folder `python_stub` to the intended package name.
+0. Update the package name, author info and url in `setup.cfg`.
+0. Update the package name, author info and copyright in `doc/source/conf.py`.
+0. Delete the configuration section from this readme and update the title and overview section.
 
 Make sure to commit all changes to your new repository - then program away!
+
+## Recommendations
+
+This package uses the [Black](https://black.readthedocs.io/) code style.
+A GitHub Action workflow is configured to check that your commits conform to the style.
+
+We recommend that you follow the [numpydoc](https://numpydoc.readthedocs.io) docstring formatting.
+
+Looking for more ideas to include fancy modules in your package?  
+Take a look at the [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) repository!
 
 ## Installation
 
