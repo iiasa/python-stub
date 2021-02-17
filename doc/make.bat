@@ -1,3 +1,5 @@
+REM This file was generated with sphinx-quickstart version 3.5.0
+
 @ECHO OFF
 
 pushd %~dp0

@@ -1,4 +1,5 @@
 # Minimal makefile for Sphinx documentation
+# This file was generated with sphinx-quickstart version 3.5.0
 #
 
 # You can set these variables from the command line, and also
