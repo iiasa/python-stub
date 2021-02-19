@@ -54,7 +54,8 @@ html_logo = "_static/iiasa_logo_white.png"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-
-# Add the IIASA stylesheet
-def setup(app):
-    app.add_css_file("iiasa.css")
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'iiasa.css',
+]
