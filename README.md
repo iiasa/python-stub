@@ -39,8 +39,7 @@ A GitHub Action workflow is configured to check that your commits conform to the
 We recommend that you follow the [numpydoc](https://numpydoc.readthedocs.io)
 docstring formatting guide.
 
-Looking for more best-practice tools for scientific software development
-in your package?
+Looking for more best-practice tools for scientific software development?
 Take a look at the [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) repository!
 
 ## Installation
