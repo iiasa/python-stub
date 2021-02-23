@@ -48,7 +48,7 @@ Install the package including the requirements for building the docs.
 
 ## Building the docs
 
-Navigate to the doc folder and run Sphinx.
+Run Sphinx to build the docs!
 
     make --directory=doc html
 
