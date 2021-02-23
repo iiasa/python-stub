@@ -21,7 +21,9 @@ Then, make the following changes:
 0. Change the text of the [LICENSE](LICENSE) file (optional).
    Visit [choosealicense.com](https://choosealicense.com) to find out which license is
    right for your project.
+0. Update the copyright (if other than IIASA) in this readme.
 0. Update the url in the license badge in this readme to point to your new repository.
+   This will automatically change the license badge (if you changed the license).
 0. Rename the folder `python_stub` to the intended package name.
 0. Update the package name, author info and url in `setup.cfg`.
 0. Update the package name, author info and copyright in `doc/source/conf.py`.
