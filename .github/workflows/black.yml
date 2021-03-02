@@ -1,4 +1,4 @@
-# This workflow installs the package and builds the docs
+# This workflow checks that the code conforms to the Black style
 # See https://black.readthedocs.io/en/stable/github_actions.html for details
 
 name: Lint
